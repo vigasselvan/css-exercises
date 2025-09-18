@@ -12,6 +12,21 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+}
+
+.left-group{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.links{
+  gap: 15px;
 }
 
 .profile-image {
@@ -20,6 +35,16 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+}
+
+.right-group{
+  display: flex;
+  gap: 20px;
+}
+
+button.notifications{
+  font-size: 12px;
+  padding: 0 20px;
 }
 
 .logo {
@@ -44,5 +69,9 @@ a {
 }
 
 ul {
+  margin:0;
+  padding: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
